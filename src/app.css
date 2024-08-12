@@ -1,0 +1,23 @@
+.contenedorGral{
+    margin-top: 40px;
+}
+
+.tituloGral{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    color: #111111c2;
+}
+
+.contenedorBotonesGral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width:330px){
+    .tituloGral{
+        font-size: 20px;
+    }
+}

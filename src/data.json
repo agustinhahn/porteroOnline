@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "departamento": "1ero A",
+        "contacto": 3416524000,
+        "email": "john@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Jane",
+        "departamento": "1ero B",
+        "contacto": 3416524001,
+        "email": "jane@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Michael",
+        "departamento": "2do A",
+        "contacto": 3416524002,
+        "email": "michael@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Emily",
+        "departamento": "2do B",
+        "contacto": 3416524003,
+        "email": "emily@example.com"
+    },
+    {
+        "id": 5,
+        "name": "David",
+        "departamento": "3ero A",
+        "contacto": 3416524004,
+        "email": "david@example.com"
+    },
+    {
+        "id": 6,
+        "name": "Sophia",
+        "departamento": "3ero B",
+        "contacto": 3416524005,
+        "email": "sophia@example.com"
+    }
+]

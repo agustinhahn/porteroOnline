@@ -1,0 +1,25 @@
+.contenedorBotones {
+    width: 300px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.200); /* Fondo translúcido */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
+}
+
+.tituloBotones {
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: #242424; /* Color del texto (ajustar según prefieras) */
+    font-weight: bold;
+}
+
+@media (max-width: 330px) {
+    .contenedorBotones {
+        width: 200px;
+    }
+}
