@@ -40,5 +40,12 @@
         "departamento": "3ero B",
         "contacto": 3416524005,
         "email": "sophia@example.com"
+    },
+    {
+        "id": 7,
+        "name": "Sophia",
+        "departamento": "4to A",
+        "contacto": 3416524005,
+        "email": "sophia@example.com"
     }
 ]

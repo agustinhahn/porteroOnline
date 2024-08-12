@@ -8,6 +8,7 @@
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.200); /* Fondo translúcido */
     border-radius: 8px; /* Bordes redondeados */
+    border-color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
 }
 
