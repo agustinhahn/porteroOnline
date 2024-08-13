@@ -1,10 +1,19 @@
 import "./departamento.css"
+import { DataContext } from "../context/Contexto";
+import { useContext, useState } from "react";
 
-const Departamento = ({ depto }) => {
+const Departamento = ({name, userId}) => {
+
+  const {putData} = useContext(DataContext)
+
+  const handleClick = () =>{
+    putData(userId)
+  }
+
   return (
     <>
-      <button className="contenedorBotones">
-        <h1 className="tituloBotones">{depto}</h1>
+      <button className="contenedorBotones" onClick={handleClick}>
+        <h1 className="tituloBotones">{name}</h1>
       </button>
     </>
   );
